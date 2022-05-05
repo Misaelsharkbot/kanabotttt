@@ -7,8 +7,8 @@ let handler = async function (m, { conn, text, usedPrefix }) {
 m.reply(`*📮 SN:* ${sn}`)
 }
 
-handler.help = ['ceksn']
+handler.help = ['sn']
 handler.tags = ['xp']
-handler.command = /^(ceksn)$/i
+handler.command = /^(sn)$/i
 handler.register = true
 export default handler
